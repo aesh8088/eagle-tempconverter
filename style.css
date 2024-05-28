@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.hel{
+        background-color: pink;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 87vh;
+}
+
+.container{
+    width: 400px;
+    box-shadow: 0 0 30px red;
+    border-radius: 10px;
+}
+
+.main h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.input1{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: red;
+    padding-bottom: 10px;
+}
+
+input{
+    display: block;
+    width: 76%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: green;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.bottom{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 462px) {
+    .container{
+       width: 300px;
+    }
+    
+    .main h2{
+        font-size: 0.8rem;
+    }
+    
+    label{
+        font-size: 1rem;
+    }
+    
+    input{
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media (max-width: 341px) {
+    .container{
+       width: 250px;
+    }
+    
+    label{
+        font-size: 0.8rem;
+    }
+    
+    input{
+        font-size: 0.7rem;
+    }
+    
+}
+
+
+
